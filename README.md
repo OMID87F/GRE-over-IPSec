@@ -1,1 +1,1 @@
-# GRE-over-IPSec-MikroTik-Cisco
+# GRE over IPSec MikroTik|Cisco
