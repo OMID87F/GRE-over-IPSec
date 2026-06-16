@@ -6,22 +6,22 @@ The objective was to establish secure communication between two different vendor
 ***
 
 ## Objectives
-Configure a GRE tunnel between Cisco and MikroTik routers.
+* Configure a GRE tunnel between Cisco and MikroTik routers.
 
-Protect the GRE tunnel using IPSec.
+* Protect the GRE tunnel using IPSec.
 
-Enable communication between remote LANs through the encrypted tunnel.
+* Enable communication between remote LANs through the encrypted tunnel.
 
-Practice multi-vendor configuration and troubleshooting.
+* Practice multi-vendor configuration and troubleshooting.
 ***
 
 ## Technologies Used
-Cisco IOS
-MikroTik RouterOS
-GNS3
-GRE Tunnel
-IPSec
-Static Routing
+* Cisco IOS
+* MikroTik RouterOS
+* GNS3
+* GRE Tunnel
+* IPSec
+* Static Routing
 ***
 
 ## Repository Structure
