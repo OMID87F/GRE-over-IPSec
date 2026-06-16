@@ -36,15 +36,11 @@ Sources/
 ## Validation
 The implementation was verified by:
 
-Establishing basic IP connectivity.
-
-Verifying GRE tunnel operation.
-
-Testing LAN-to-LAN communication.
-
-Confirming IPSec tunnel establishment.
-
-Validating encrypted traffic between both sites.
+* Establishing basic IP connectivity.
+* Verifying GRE tunnel operation.
+* Testing LAN-to-LAN communication.
+* Confirming IPSec tunnel establishment.
+* Validating encrypted traffic between both sites.
 ***
 
 ## Troubleshooting
@@ -52,11 +48,14 @@ One of the main challenges occurred during IPSec Phase 2 negotiation.
 
 Although IKE Phase 1 completed successfully, the IPSec Security Association was not established, preventing GRE traffic from passing through the tunnel.
 
-The issue was resolved by ensuring consistent IPSec policy parameters on both devices and initiating traffic across the GRE tunnel to trigger SA establishment.
+The issue was resolved by ensuring consistent IPSec policy parameters on both devices and initiating traffic across the GRE tunn
+el to trigger SA establishment.
 ***
 
 ## Documentation
 Detailed configuration steps, screenshots, verification, and troubleshooting notes are available in Documentation.md.
+
+> **Note:** The detailed documentation is currently written in Persian (Farsi).
 ***
 
 ## Learning Outcomes
