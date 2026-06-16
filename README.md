@@ -1,14 +1,11 @@
 # GRE over IPSec (Cisco ↔ MikroTik)
-***
 ## Overview
-***
 This project demonstrates a site-to-site VPN between Cisco IOS and MikroTik RouterOS using a GRE tunnel protected by IPSec.
 
 The objective was to establish secure communication between two different vendors while gaining practical experience with tunnel configuration, routing, IPSec policies, and troubleshooting interoperability issues.
 ***
 
 ## Objectives
-***
 Configure a GRE tunnel between Cisco and MikroTik routers.
 
 Protect the GRE tunnel using IPSec.
@@ -19,7 +16,6 @@ Practice multi-vendor configuration and troubleshooting.
 ***
 
 ## Technologies Used
-***
 Cisco IOS
 MikroTik RouterOS
 GNS3
@@ -29,7 +25,6 @@ Static Routing
 ***
 
 ## Repository Structure
-***
 ```
 README.md
 Documentation.md
@@ -39,7 +34,6 @@ Sources/
 ***
 
 ## Validation
-***
 The implementation was verified by:
 
 Establishing basic IP connectivity.
@@ -54,7 +48,6 @@ Validating encrypted traffic between both sites.
 ***
 
 ## Troubleshooting
-***
 One of the main challenges occurred during IPSec Phase 2 negotiation.
 
 Although IKE Phase 1 completed successfully, the IPSec Security Association was not established, preventing GRE traffic from passing through the tunnel.
@@ -63,16 +56,14 @@ The issue was resolved by ensuring consistent IPSec policy parameters on both de
 ***
 
 ## Documentation
-***
 Detailed configuration steps, screenshots, verification, and troubleshooting notes are available in Documentation.md.
 ***
 
 ## Learning Outcomes
-***
 Through this project I gained hands-on experience with:
 
-- Multi-vendor interoperability
-GRE tunnel deployment
-IPSec implementation
-Static routing across tunnels
-Network troubleshooting and verification
+* Multi-vendor interoperability
+* GRE tunnel deployment
+* IPSec implementation
+* Static routing across tunnels
+* Network troubleshooting and verification
