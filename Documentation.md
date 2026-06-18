@@ -39,19 +39,19 @@
 
 
 ## 🔹راستی آزمایی
-1.تست ارتباط اولیه⬇️
+* تست ارتباط اولیه⬇️
 ![1-Test](Sources/1-Test.png)
 
-2.تست ارتباط`GRE`ها⬇️
+* تست ارتباط`GRE`ها⬇️
 ![2-Test](Sources/2-Test.png)
 
-3. تست ارتباط Clientها با`GRE`⬇️
+* تست ارتباط Clientها با`GRE`⬇️
 ![3-Test](Sources/3-Test.png)
 
-4. بررسی اطلاعات⬇️
+* بررسی اطلاعات⬇️
 ![4-Verify](Sources/4-Verify.png)
 
-5. تست ارتباط با `IPSec`+`GRE`⬇️
+* تست ارتباط با `IPSec`+`GRE`⬇️
 ![4-Test](Sources/4-Test.png)
 
 
