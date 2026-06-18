@@ -19,44 +19,40 @@
 ## 🔹اقدامات و کانفیگ‌ها
 ### 🔸ارتباطات اولیه
 * نوشتن Default Route⬇️
-![[1-Default Route.png]]
-
+![1-Default Route](Sources/1-Default%20Route.png)
 
 ### 🔸راه‌اندازی`GRE`
 * تعریف Tunnel روی روترها⬇️
-![[2-GRE.png]]
-
+![2-GRE](Sources/2-GRE.png)
 
 ### 🔸روتنیگ با`GRE`
 * نوشتن Static Route برای LANها⬇️
-![[3-Routing.png]]
-
+![3-Routing](Sources/3-Routing.png)
 
 ### 🔸اعمال`IPSec`روی`GRE`
 - میکروتیک⬇️
-![[4-MikroTik.png]]
+![4-MikroTik](Sources/4-MikroTik.png)
 
 - سیسکو⬇️
-![[4-Cisco.png]]
-
+![4-Cisco](Sources/4-Cisco.png)
 
 
 
 ## 🔹راستی آزمایی
 1. تست ارتباط اولیه⬇️
-![[1-Test.png]]
+![1-Test](Sources/1-Test.png)
 
-2. تست ارتباط`GRE`ها⬇️
-![[2-Test.png]]
+3. تست ارتباط`GRE`ها⬇️
+![2-Test](Sources/2-Test.png)
 
-3. تست ارتباط Clientها با`GRE`⬇️
-![[3-Test.png]]
+4. تست ارتباط Clientها با`GRE`⬇️
+![3-Test](Sources/3-Test.png)
 
-4. بررسی اطلاعات⬇️
-![[4-Vertify.png]]
+5. بررسی اطلاعات⬇️
+![4-Verify](Sources/4-Verify.png)
 
-5. تست ارتباط با `IPSec`+`GRE`⬇️
-![[4-Test.png]]
+6. تست ارتباط با `IPSec`+`GRE`⬇️
+![4-Test](Sources/4-Test.png)
 
 
 
